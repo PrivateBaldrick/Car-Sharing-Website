@@ -1,0 +1,262 @@
+* {
+  box-sizing: border-box;
+  font-family: "Nunito Sans";
+}
+
+.header {
+  background-image: url(../images/main-banner.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  height: 6rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  position: relative;
+}
+
+.menuItems ul {
+  display: flex;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: 30rem;
+  height: 6rem;
+}
+
+.menuItems ul li {
+  border-left: 0.5px solid rgba(255, 255, 255, 0.5);
+  border-right: 0.5px solid rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  padding: 0 1rem 0 1rem;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.menuItems ul li:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.cta {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Nunito Sans";
+  height: 100vh;
+  text-align: center;
+}
+
+.cta h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 8rem;
+}
+
+.cta p {
+  width: 50%;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 2rem 0 1rem 0;
+}
+
+.buttons {
+  display: flex;
+  width: 75vh;
+  justify-content: center;
+  margin: 1rem 0 2rem 0;
+}
+
+.cta-btn {
+  font-size: 1.25rem;
+  color: white;
+  text-transform: uppercase;
+  background: #ff0000;
+  border: solid #ff0000;
+  border-radius: 5rem;
+  padding: 1rem 2rem 1rem 2rem;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.btn-white {
+  color: #ff0000;
+  background: white;
+  border: solid white;
+}
+
+.btn-red:hover {
+  border: solid white;
+}
+
+.btn-white:hover {
+  border: solid red;
+}
+
+/* // CAR SHARING // */
+
+.box-size {
+  width: 1096px;
+  text-align: center;
+  margin: auto;
+  padding: 7rem 0 7rem 0;
+}
+
+.mainH2 {
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+}
+
+.redH2 {
+  color: red;
+}
+
+.carSharingColumns {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carSharing li {
+  padding: 1rem;
+}
+
+.carSharingColumns img {
+  width: 100%;
+}
+
+.carSharingColumns h3 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 1rem 0 1rem 0;
+}
+
+.carSharingColumns p {
+  line-height: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+.btn-main {
+  font-size: ;
+  color: white;
+  text-transform: uppercase;
+  background: #ff0000;
+  border: solid #ff0000;
+  border-radius: 5rem;
+  padding: 1rem 2.5rem 1rem 2.5rem;
+  cursor: pointer;
+}
+
+.proService {
+  background-color: #27262b;
+  width: 100%;
+}
+
+.proServiceColumns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  width: 1096px;
+  text-align: center;
+  margin: auto;
+}
+
+.proService .mainH2 {
+  color: white;
+}
+
+.proServiceColumns li {
+  text-align: center;
+  padding: 2rem;
+}
+
+.proServiceColumns img {
+  border-radius: 50%;
+  width: 15rem;
+  height: 15rem;
+}
+
+.proServiceColumns h3 {
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 1rem 0 1rem 0;
+}
+
+.proServiceColumns p {
+  line-height: 1.5rem;
+  padding-bottom: 1rem;
+  color: grey;
+}
+
+/* OUR SERVICE */
+
+.divOurService {
+  display: flex;
+  justify-items: center;
+}
+
+.ourService img {
+  width: 50%;
+  padding-right: 1rem;
+}
+.ourServiceRightColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  padding-left: 1rem;
+  text-align: justify;
+  color: grey;
+}
+
+footer {
+  background-color: #27262b;
+  padding: 3.5rem 0 3.5rem 0;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Nunito Sans";
+  line-height: 1.5rem;
+  font-weight: 700;
+  font-size: 0.75rem;
+}
+
+.footerDiv {
+  width: 1096px;
+  margin: auto;
+}
+
+.footerMenu {
+  display: flex;
+}
+
+.footerRightMenu {
+  margin-left: 4rem;
+}
+
+.footerMenu li:hover {
+  cursor: pointer;
+  color: red;
+}
